@@ -13,7 +13,10 @@ end)
 local supportedgames = {
     ["Prison Life"] = {
         getscript = "https://api.junkie-development.de/api/v1/luascripts/public/2c266d71a55eb41d24d3bb343b78611771cf73f80d0d657e1b1923cd16322e0b/download"
-    }
+    },
+    ["Blind Shot"] = {
+       getscript = "https://api.junkie-development.de/api/v1/luascripts/public/24e6f43a500392a7bfd6922b14da0d35b51a677954d33a6aaa37907f08bed9d4/download"
+   }
 }
 
 local function isSupportedGame(gameName)
