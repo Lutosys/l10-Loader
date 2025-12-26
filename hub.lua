@@ -20,6 +20,9 @@ local supportedgames = {
     ["Cart Ride"] = {
        getscript = "https://api.junkie-development.de/api/v1/luascripts/public/6b99ff80d5ff2d44e542cbdeaf8e7e187363555fc318fe645a68884855cb8303/download"
    }
+     ["DaHood"] = {
+       getscript = "https://api.junkie-development.de/api/v1/luascripts/public/c85c36dacb8bce4e1704e86d38734a80409eab3b6e4077ffe675752717493f30/download"
+   }
 }
 
 local function isSupportedGame(gameName)
